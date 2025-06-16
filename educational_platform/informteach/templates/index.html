@@ -1,0 +1,1008 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content1 %}
+<div class="container">
+<div class="row">
+
+  <div class="col-sm-4">
+      <a class="btn btn-light"  href="#" onclick="Showlesson1()" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Подсказка вверху">
+            <div class="card text-center" >
+                <img src="{% static 'images/транспорт.jpg' %}" class="card-img-top">
+              <div class="card-body">
+                <h2 class="card-title">Урок №1 Транспорт</h2>
+              </div>
+            </div>
+     </a>
+  </div>
+  <div class="col-sm-4">
+      <a class="btn btn-light" href="#" onclick="Showlesson2()">
+    <div class="card text-center">
+        <img src="{% static 'images/шопинг.jpg' %}" class="card-img-top">
+      <div class="card-body">
+        <h2 class="card-title">Урок №2 Одежда</h2>
+      </div>
+    </div>
+          </a>
+  </div>
+    <div class="col-sm-4">
+        <a class="btn btn-light" href="#" onclick="Showlesson3()">
+    <div class="card text-center" href="#">
+        <img src="{% static 'images/семья.jpg' %}" class="card-img-top">
+      <div class="card-body">
+        <h2 class="card-title">Урок №3 Семья</h2>
+      </div>
+    </div>
+            </a>
+  </div>
+    <div class="col-sm-4">
+        <a class="btn btn-light" href="#" onclick="Showlesson4()">
+            <div class="card text-center">
+                <img src="{% static 'images/животные.jpg' %}" class="card-img-top">
+                <div class="card-body">
+                    <h2 class="card-title">Урок №4 Животные</h2>
+                </div>
+            </div>
+        </a>
+  </div>
+
+</div>
+    </div>
+{% endblock %}
+
+{% block content2 %}
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card text-center">
+                <img src="{% static 'images/курс.png' %}" class="card-img-top">
+            </div>
+        </div>
+        <div class="col-sm-8">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h2 class="card-title">О КУРСЕ</h2>
+                    <p class="card-text">Элементарный уровень владения русским языком как иностранным был установлен приказом Министерства образования и науки Российской Федерации, он обеспечивает удовлетворение коммуникативных потребностей в ситуациях повседневного общения и формирование русскоязычной коммуникативной компетенции.
+Формирование русскоязычной коммуникативной компетенции предполагает взаимосвязанное обучение аспектам языка и видам речевой деятельности, основанное на тематико-ситуативном принципе организации учебного материала.
+</p>
+                    <p class="card-text">Для обеспечения коммуникации на элементарном уровне обучающийся должен научиться:
+– вступать в коммуникацию, знакомиться, представляться самому или представлять другого человека, здороваться, прощаться, обращаться к собеседнику, благодарить, извиняться, отвечать на благодарность и извинения, поздравлять; завершать беседу;
+− выражать намерение, желание, просьбу, приглашение, согласие и несогласие, отказ, обещание, неуверенность, сомнение и т.д.;
+− выражать своё отношение: давать оценку лицу, предмету, факту, событию; выражать предпочтение, удивление, сочувствие, сожаление и т.д.
+Основные ситуации, в которых реализуются перечисленные умения: на занятиях, в университете, на курсах; в магазине, в киоске, на рынке, в аптеке; у врача; в аэропорту, на вокзале; в городе, в транспорте; в театре, в кинотеатре, в музее, на экскурсии.
+</p>
+                    <p class="card-text">После окончания курса обучающийся должен уметь:
+1) сообщить имя, фамилию, страну, откуда приехал, знакомить с семьей;
+2) сообщить, что необходимо купить в магазине или кафе; одежду, обувь; как называется указанная вещь по-русски, где можно заплатить за покупку;
+3) купить билет; сообщить, сколько билетов нужно; куда он едет/летит; узнать (спросить), когда отправляется поезд (автобус), улетает самолёт, когда прибывает поезд, приходит автобус, прилетает самолёт; объект (улица, гостиница и т.д.); идёт ли данный вид транспорта (автобус, троллейбус и т.д.) в нужное место; нужно ли и где сделать пересадку; какая следующая остановка; останавливается ли автобус (троллейбус и т.д.) у нужного объекта; выходят ли пассажиры на этой или следующей остановке, сколько стоит билет, талон, карта, проезд;
+И т.д.
+</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content3 %}
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card text-center">
+                <img src="{% static 'images/school.jpg' %}" class="card-img-top">
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h2 class="card-title">Государственное автономное нетиповое образовательное учреждение "Арктическая школа" Республики Саха (Якутия)</h2>
+                    <p class="card-text">27 марта 2019 года.
+Создана распоряжением Правительства Республики Саха (Якутия) от 27 марта 2019 года N 304-Р «О создании государственного казенного нетипового образовательного учреждения "Арктическая школа" Республики Саха (Якутия). Тип учреждения изменен распоряжением Главы Республики Саха (Якутия) от 16 декабря 2019 года № 722-РГ «О создании государственного автономного нетипового образовательного учреждения «Международная Арктическая школа» Республики Саха (Якутия) путем изменения типа государственного казенного нетипового образовательного учреждения «Международная Арктическая школа» Республики Саха (Якутия)». Переименован распоряжением Главы Республики Саха (Якутия) от 20 ноября 2023 года № 1683-РГ в государственное автономное нетиповое образовательное учреждение «Арктическая школа» Республики Саха (Якутия)
+</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content4 %}
+<div class="container">
+    <div class="card">
+  <div class="card-header">
+    Наш адрес
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">E-mail: as@gov14.ru</h5>
+    <p class="card-text">677008
+            Республика Саха (Якутия)
+            г. Якутск
+            ул. Сергеляхское шоссе 12 км, дом 2/10</p>
+  </div>
+</div>
+</div>
+{% endblock %}
+
+{% block lesson1 %}
+<div class="container">
+    <ul class="nav nav-tabs justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" onclick="Showlesson1()">Урок №1 ТРАНСПОРТ</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#" onclick="Showlesson2()">Урок №2 ОДЕЖДА</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#" onclick="Showlesson3()">Урок №3 СЕМЬЯ</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#" onclick="Showlesson4()">Урок №4 ЖИВОТНЫЕ</a>
+        </li>
+    </ul>
+    <div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card text-center">
+                <div class="col-sm-2">
+                <a class="btn btn-light" href="#" onclick="Showsound('Самолет')">
+                    <img src="{% static 'images/Sound.png' %}" class="card-img-top">
+                </a>
+                </div>
+                <img src="{% static 'images/авто1.jpg' %}" class="card-img-top">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card text-center">
+                <div class="col-sm-2">
+                <a class="btn btn-light" href="#" onclick="Showsound('Поезд')">
+                    <img src="{% static 'images/Sound.png' %}" class="card-img-top">
+                </a>
+            </div>
+                <img src="{% static 'images/авто2.jpg' %}" class="card-img-top">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card text-center">
+                <div class="col-sm-2">
+                <a class="btn btn-light" href="#" onclick="Showsound('Машина')">
+                    <img src="{% static 'images/Sound.png' %}" class="card-img-top">
+                </a>
+            </div>
+                <img src="{% static 'images/авто3.jpg' %}" class="card-img-top">
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+        <div class="row">
+            <div class="d-grid gap-2 col-2 mx-auto">
+                <a class="btn btn-outline-success" href="#" onclick="Showtest1()">Тест</a>
+            </div>
+        </div>
+</div>
+{% endblock %}
+
+{% block lesson2 %}
+<div class="container">
+    <ul class="nav nav-tabs justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link" aria-current="page" href="#" onclick="Showlesson1()">Урок №1 ТРАНСПОРТ</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#" onclick="Showlesson2()">Урок №2 ОДЕЖДА</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" aria-current="page" href="#" onclick="Showlesson3()">Урок №3 СЕМЬЯ</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" aria-current="page" href="#" onclick="Showlesson4()">Урок №4 ЖИВОТНЫЕ</a>
+  </li>
+</ul>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card text-center">
+                <div class="col-sm-2">
+                <a class="btn btn-light" href="#" onclick="Showsound('Платье')">
+                    <img src="{% static 'images/Sound.png' %}" class="card-img-top">
+                </a>
+                </div>
+                <p class="card-text"><h3>ПЛАТЬЕ</h3></p>
+                <img src="{% static 'images/платье.jpg' %}" class="card-img-top">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card text-center">
+                <div class="col-sm-2">
+                <a class="btn btn-light" href="#" onclick="Showsound('Рубашка')">
+                    <img src="{% static 'images/Sound.png' %}" class="card-img-top">
+                </a>
+                </div>
+                <p class="card-text"><h3>РУБАШКА</h3></p>
+                <img src="{% static 'images/рубашка.jpg' %}" class="card-img-top">
+
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card text-center">
+                <div class="col-sm-2">
+                <a class="btn btn-light" href="#" onclick="Showsound('Ботинки')">
+                    <img src="{% static 'images/Sound.png' %}" class="card-img-top">
+                </a>
+                </div>
+                <p class="card-text"><h3>БОТИНКИ</h3></p>
+                <img src="{% static 'images/ботинки.jpg' %}" class="card-img-top">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<div class="container">
+        <div class="row">
+            <div class="d-grid gap-2 col-2 mx-auto">
+                <a class="btn btn-outline-success" href="#" onclick="Showtest2()">Тест</a>
+            </div>
+        </div>
+</div>
+{% endblock %}
+
+{% block lesson3 %}
+<div class="container">
+    <ul class="nav nav-tabs justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link" aria-current="page" href="#" onclick="Showlesson1()">Урок №1 ТРАНСПОРТ</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" aria-current="page" href="#" onclick="Showlesson2()">Урок №2 ОДЕЖДА</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#" onclick="Showlesson3()">Урок №3 СЕМЬЯ</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" aria-current="page" href="#" onclick="Showlesson4()">Урок №4 ЖИВОТНЫЕ</a>
+  </li>
+</ul>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card text-center">
+                <div class="col-sm-2">
+                <a class="btn btn-light" href="#" onclick="Showsound('Дедушка')">
+                    <img src="{% static 'images/Sound.png' %}" class="card-img-top">
+                </a>
+                </div>
+                <img src="{% static 'images/слайд11.jpg' %}" class="card-img-top">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card text-center">
+                <div class="col-sm-2">
+                <a class="btn btn-light" href="#" onclick="Showsound('Бабушка')">
+                    <img src="{% static 'images/Sound.png' %}" class="card-img-top">
+                </a>
+                </div>
+                <img src="{% static 'images/слайд10.jpg' %}" class="card-img-top">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card text-center">
+                <div class="col-sm-2">
+                <a class="btn btn-light" href="#" onclick="Showsound('Папа')">
+                    <img src="{% static 'images/Sound.png' %}" class="card-img-top">
+                </a>
+                </div>
+                <img src="{% static 'images/слайд5.jpg' %}" class="card-img-top">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card text-center">
+                <div class="col-sm-2">
+                <a class="btn btn-light" href="#" onclick="Showsound('Мама')">
+                    <img src="{% static 'images/Sound.png' %}" class="card-img-top">
+                </a>
+                </div>
+                <img src="{% static 'images/слайд4.jpg' %}" class="card-img-top">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card text-center">
+                <div class="col-sm-2">
+                <a class="btn btn-light" href="#" onclick="Showsound('Сын')">
+                    <img src="{% static 'images/Sound.png' %}" class="card-img-top">
+                </a>
+                </div>
+                <img src="{% static 'images/слайд8.jpg' %}" class="card-img-top">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card text-center">
+                <div class="col-sm-2">
+                <a class="btn btn-light" href="#" onclick="Showsound('Дочь')">
+                    <img src="{% static 'images/Sound.png' %}" class="card-img-top">
+                </a>
+                </div>
+                <img src="{% static 'images/слайд7.jpg' %}" class="card-img-top">
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="container">
+        <div class="row">
+            <div class="d-grid gap-2 col-2 mx-auto">
+                <a class="btn btn-outline-success" href="#" onclick="Showtest3()">Тест</a>
+            </div>
+        </div>
+</div>
+{% endblock %}
+
+{% block lesson4 %}
+<div class="container">
+    <ul class="nav nav-tabs justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link" aria-current="page" href="#" onclick="Showlesson1()">Урок №1 ТРАНСПОРТ</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" aria-current="page" href="#" onclick="Showlesson2()">Урок №2 ОДЕЖДА</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" aria-current="page" href="#" onclick="Showlesson3()">Урок №3 СЕМЬЯ</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#" onclick="Showlesson4()">Урок №4 ЖИВОТНЫЕ</a>
+  </li>
+</ul>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card text-center">
+                <div class="col-sm-2">
+                <a class="btn btn-light" href="#" onclick="Showsound('Кошка')">
+                    <img src="{% static 'images/Sound.png' %}" class="card-img-top">
+                </a>
+                </div>
+                <img src="{% static 'images/С2.jpg' %}" class="card-img-top">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card text-center">
+                <div class="col-sm-2">
+                <a class="btn btn-light" href="#" onclick="Showsound('Собака')">
+                    <img src="{% static 'images/Sound.png' %}" class="card-img-top">
+                </a>
+                </div>
+                <img src="{% static 'images/С3.jpg' %}" class="card-img-top">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card text-center">
+                <div class="col-sm-2">
+                <a class="btn btn-light" href="#" onclick="Showsound('Лошадь')">
+                    <img src="{% static 'images/Sound.png' %}" class="card-img-top">
+                </a>
+                </div>
+                <img src="{% static 'images/С9.jpg' %}" class="card-img-top">
+            </div>
+        </div>
+        </div>
+
+</div>
+</div>
+<div class="container">
+        <div class="row">
+            <div class="d-grid gap-2 col-2 mx-auto">
+                <a class="btn btn-outline-success" href="#" onclick="Showtest4()">Тест</a>
+            </div>
+        </div>
+</div>
+{% endblock %}
+
+{% block test1 %}
+<div class="container">
+<div class="container">
+    <ul class="nav nav-tabs justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" onclick="Showlesson1()">Урок №1 ТРАНСПОРТ</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#" onclick="Showlesson2()">Урок №2 ОДЕЖДА</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#" onclick="Showlesson3()">Урок №3 СЕМЬЯ</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#" onclick="Showlesson4()">Урок №4 ЖИВОТНЫЕ</a>
+        </li>
+    </ul>
+    <div class="container">
+        <h2 id="result1"></h2>
+    </div>
+</div>
+    <div class="container" id="t11" style="display:block">
+        <div class="container d-flex flex-nowrap">
+            <div class="col-sm-4">
+                <div class="card text-center">
+                    <img src="{% static 'images/авто11.jpg' %}" class="card-img-top">
+                </div>
+            </div>
+            <div class="col-sm-4"><div class="card">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio11" value="1" id="firstCheckbox11">
+                        <label class="form-check-label" for="firstCheckbox11">Проезд</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio11" value="2" id="secondCheckbox11">
+                        <label class="form-check-label" for="secondCheckbox11">Самолет</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio11" value="3" id="thirdCheckbox11">
+                        <label class="form-check-label" for="thirdCheckbox11">Поезд</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio11" value="4" id="Checkbox11">
+                        <label class="form-check-label" for="Checkbox11">Машина</label>
+                    </li>
+                </ul>
+            </div></div>
+        </div>
+        <nav aria-label="...">
+            <ul class="pagination justify-content-center">
+                <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt12()">2</a></li>
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt13()">3</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container" id="t12" style="display:none">
+        <div class="container d-flex flex-nowrap">
+            <div class="col-sm-4">
+                <div class="card text-center">
+                    <img src="{% static 'images/авто22.jpg' %}" class="card-img-top">
+                </div>
+            </div>
+            <div class="col-sm-4"><div class="card">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio12" value="1" id="firstCheckbox12">
+                        <label class="form-check-label" for="firstCheckbox12">Проезд</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio12" value="2" id="secondCheckbox12">
+                        <label class="form-check-label" for="secondCheckbox12">Самолет</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio12" value="3" id="thirdCheckbox12">
+                        <label class="form-check-label" for="thirdCheckbox12">Поезд</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio12" value="4" id="Checkbox12">
+                        <label class="form-check-label" for="Checkbox12">Машина</label>
+                    </li>
+                </ul>
+            </div></div>
+        </div>
+        <nav aria-label="...">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt11()">1</a></li>
+                <li class="page-item active" aria-current="page"><span class="page-link">2</span></li>
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt13()">3</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container" id="t13" style="display:none">
+        <div class="container d-flex flex-nowrap">
+            <div class="col-sm-4">
+                <div class="card text-center">
+                    <img src="{% static 'images/авто33.jpg' %}" class="card-img-top">
+                </div>
+            </div>
+            <div class="col-sm-4"><div class="card">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio13" value="1" id="firstCheckbox13">
+                        <label class="form-check-label" for="firstCheckbox13">Проезд</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio13" value="2" id="secondCheckbox13">
+                        <label class="form-check-label" for="secondCheckbox13">Самолет</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio13" value="3" id="thirdCheckbox13">
+                        <label class="form-check-label" for="thirdCheckbox13">Поезд</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio13" value="4" id="Checkbox13">
+                        <label class="form-check-label" for="Checkbox13">Машина</label>
+                    </li>
+                </ul>
+            </div></div>
+        </div>
+        <nav aria-label="...">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt11()">1</a></li>
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt12()">2</a></li>
+                <li class="page-item active" aria-current="page"><span class="page-link">3</span></li>
+            </ul>
+        </nav>
+    </div>
+<div class="container text-center">
+        <div class="row justify-content-center">
+            <div class="col-2">
+                <a class="btn btn-outline-success" href="#" onclick="Showlesson1()">Назад к уроку</a>
+            </div>
+            <div class="col-2">
+                <a class="btn btn-outline-success" href="#" onclick="Showtest1()">Пройти тест еще раз</a>
+            </div>
+        </div>
+</div>
+</div>
+{% endblock %}
+
+{% block test2 %}
+<div class="container">
+<div class="container">
+    <ul class="nav nav-tabs justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link " aria-current="page" href="#" onclick="Showlesson1()">Урок №1 ТРАНСПОРТ</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#" onclick="Showlesson2()">Урок №2 ОДЕЖДА</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" aria-current="page" href="#" onclick="Showlesson3()">Урок №3 СЕМЬЯ</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" aria-current="page" href="#" onclick="Showlesson4()">Урок №4 ЖИВОТНЫЕ</a>
+  </li>
+</ul>
+    <div class="container">
+        <h2 id="result2"></h2>
+    </div>
+</div>
+    <div class="container" id="t21" style="display:block">
+        <div class="container d-flex flex-nowrap">
+            <div class="col-sm-4">
+                <div class="card text-center">
+                    <img src="{% static 'images/платье.jpg' %}" class="card-img-top">
+                </div>
+            </div>
+            <div class="col-sm-4"><div class="card">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio21" value="1" id="firstCheckbox21">
+                        <label class="form-check-label" for="firstCheckbox21">Платье</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio21" value="2" id="secondCheckbox21">
+                        <label class="form-check-label" for="secondCheckbox21">Ботинки</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio21" value="3" id="thirdCheckbox21">
+                        <label class="form-check-label" for="thirdCheckbox21">Сапоги</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio21" value="4" id="Checkbox21">
+                        <label class="form-check-label" for="Checkbox21">Рубашка</label>
+                    </li>
+                </ul>
+            </div></div>
+        </div>
+        <nav aria-label="...">
+            <ul class="pagination justify-content-center">
+                <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt22()">2</a></li>
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt23()">3</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container" id="t22" style="display:none">
+        <div class="container d-flex flex-nowrap">
+            <div class="col-sm-4">
+                <div class="card text-center">
+                    <img src="{% static 'images/рубашка.jpg' %}" class="card-img-top">
+                </div>
+            </div>
+            <div class="col-sm-4"><div class="card">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio22" value="1" id="firstCheckbox22">
+                        <label class="form-check-label" for="firstCheckbox22">Платье</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio22" value="2" id="secondCheckbox22">
+                        <label class="form-check-label" for="secondCheckbox22">Ботинки</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio22" value="3" id="thirdCheckbox22">
+                        <label class="form-check-label" for="thirdCheckbox22">Сапоги</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio22" value="4" id="Checkbox22">
+                        <label class="form-check-label" for="Checkbox22">Рубашка</label>
+                    </li>
+                </ul>
+            </div></div>
+        </div>
+        <nav aria-label="...">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt21()">1</a></li>
+                <li class="page-item active" aria-current="page"><span class="page-link">2</span></li>
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt23()">3</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container" id="t23" style="display:none">
+        <div class="container d-flex flex-nowrap">
+            <div class="col-sm-4">
+                <div class="card text-center">
+                    <img src="{% static 'images/ботинки.jpg' %}" class="card-img-top">
+                </div>
+            </div>
+            <div class="col-sm-4"><div class="card">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio23" value="1" id="firstCheckbox23">
+                        <label class="form-check-label" for="firstCheckbox23">Платье</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio23" value="2" id="secondCheckbox23">
+                        <label class="form-check-label" for="secondCheckbox23">Ботинки</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio23" value="3" id="thirdCheckbox23">
+                        <label class="form-check-label" for="thirdCheckbox23">Сапоги</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio23" value="4" id="Checkbox23">
+                        <label class="form-check-label" for="Checkbox23">Рубашка</label>
+                    </li>
+                </ul>
+            </div></div>
+        </div>
+        <nav aria-label="...">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt21()">1</a></li>
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt22()">2</a></li>
+                <li class="page-item active" aria-current="page"><span class="page-link">3</span></li>
+            </ul>
+        </nav>
+    </div>
+<div class="container text-center">
+        <div class="row justify-content-center">
+            <div class="col-2">
+                <a class="btn btn-outline-success" href="#" onclick="Showlesson2()">Назад к уроку</a>
+            </div>
+            <div class="col-2">
+                <a class="btn btn-outline-success" href="#" onclick="Showtest2()">Пройти тест еще раз</a>
+            </div>
+        </div>
+</div>
+</div>
+{% endblock %}
+
+{% block test3 %}
+<div class="container">
+<div class="container">
+    <ul class="nav nav-tabs justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link " aria-current="page" href="#" onclick="Showlesson1()">Урок №1 ТРАНСПОРТ</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " aria-current="page" href="#" onclick="Showlesson2()">Урок №2 ОДЕЖДА</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#" onclick="Showlesson3()">Урок №3 СЕМЬЯ</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" aria-current="page" href="#" onclick="Showlesson4()">Урок №4 ЖИВОТНЫЕ</a>
+  </li>
+</ul>
+    <div class="container">
+        <h2 id="result3"></h2>
+    </div>
+</div>
+    <div class="container" id="t31" style="display:block">
+        <div class="container d-flex flex-nowrap">
+            <div class="col-sm-4">
+                <div class="card text-center">
+                    <img src="{% static 'images/Слайд55.jpg' %}" class="card-img-top">
+                </div>
+            </div>
+            <div class="col-sm-4"><div class="card">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio31" value="1" id="firstCheckbox31">
+                        <label class="form-check-label" for="firstCheckbox31">Дочь</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio31" value="2" id="secondCheckbox31">
+                        <label class="form-check-label" for="secondCheckbox31">Мама</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio31" value="3" id="thirdCheckbox31">
+                        <label class="form-check-label" for="thirdCheckbox31">Папа</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio31" value="4" id="Checkbox31">
+                        <label class="form-check-label" for="Checkbox31">Сын</label>
+                    </li>
+                </ul>
+            </div></div>
+        </div>
+        <nav aria-label="...">
+            <ul class="pagination justify-content-center">
+                <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt32()">2</a></li>
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt33()">3</a></li>
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt34()">4</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container" id="t32" style="display:none">
+        <div class="container d-flex flex-nowrap">
+            <div class="col-sm-4">
+                <div class="card text-center">
+                    <img src="{% static 'images/Слайд44.jpg' %}" class="card-img-top">
+                </div>
+            </div>
+            <div class="col-sm-4"><div class="card">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio32" value="1" id="firstCheckbox32">
+                        <label class="form-check-label" for="firstCheckbox32">Дочь</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio32" value="2" id="secondCheckbox32">
+                        <label class="form-check-label" for="secondCheckbox32">Мама</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio32" value="3" id="thirdCheckbox32">
+                        <label class="form-check-label" for="thirdCheckbox32">Папа</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio32" value="4" id="Checkbox32">
+                        <label class="form-check-label" for="Checkbox32">Сын</label>
+                    </li>
+                </ul>
+            </div></div>
+        </div>
+        <nav aria-label="...">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt31()">1</a></li>
+                <li class="page-item active" aria-current="page"><span class="page-link">2</span></li>
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt33()">3</a></li>
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt34()">4</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container" id="t33" style="display:none">
+        <div class="container d-flex flex-nowrap">
+            <div class="col-sm-4">
+                <div class="card text-center">
+                    <img src="{% static 'images/Слайд77.jpg' %}" class="card-img-top">
+                </div>
+            </div>
+            <div class="col-sm-4"><div class="card">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio33" value="1" id="firstCheckbox33">
+                        <label class="form-check-label" for="firstCheckbox33">Дочь</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio33" value="2" id="secondCheckbox33">
+                        <label class="form-check-label" for="secondCheckbox33">Мама</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio33" value="3" id="thirdCheckbox33">
+                        <label class="form-check-label" for="thirdCheckbox33">Папа</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio33" value="4" id="Checkbox33">
+                        <label class="form-check-label" for="Checkbox33">Сын</label>
+                    </li>
+                </ul>
+            </div></div>
+        </div>
+        <nav aria-label="...">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt31()">1</a></li>
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt32()">2</a></li>
+                <li class="page-item active" aria-current="page"><span class="page-link">3</span></li>
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt34()">4</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container" id="t34" style="display:none">
+        <div class="container d-flex flex-nowrap">
+            <div class="col-sm-4">
+                <div class="card text-center">
+                    <img src="{% static 'images/Слайд88.jpg' %}" class="card-img-top">
+                </div>
+            </div>
+            <div class="col-sm-4"><div class="card">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio34" value="1" id="firstCheckbox34">
+                        <label class="form-check-label" for="firstCheckbox34">Дочь</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio34" value="2" id="secondCheckbox34">
+                        <label class="form-check-label" for="secondCheckbox34">Мама</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio34" value="3" id="thirdCheckbox34">
+                        <label class="form-check-label" for="thirdCheckbox34">Папа</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio34" value="4" id="Checkbox34">
+                        <label class="form-check-label" for="Checkbox34">Сын</label>
+                    </li>
+                </ul>
+            </div></div>
+        </div>
+        <nav aria-label="...">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt31()">1</a></li>
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt32()">2</a></li>
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt33()">3</a></li>
+                <li class="page-item active" aria-current="page"><span class="page-link">4</span></li>
+            </ul>
+        </nav>
+    </div>
+<div class="container text-center">
+        <div class="row justify-content-center">
+            <div class="col-2">
+                <a class="btn btn-outline-success" href="#" onclick="Showlesson3()">Назад к уроку</a>
+            </div>
+            <div class="col-2">
+                <a class="btn btn-outline-success" href="#" onclick="Showtest3()">Пройти тест еще раз</a>
+            </div>
+        </div>
+</div>
+</div>
+{% endblock %}
+
+{% block test4 %}
+<div class="container">
+<div class="container">
+    <ul class="nav nav-tabs justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link " aria-current="page" href="#" onclick="Showlesson1()">Урок №1 ТРАНСПОРТ</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" aria-current="page" href="#" onclick="Showlesson2()">Урок №2 ОДЕЖДА</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" aria-current="page" href="#" onclick="Showlesson3()">Урок №3 СЕМЬЯ</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link  active" aria-current="page" href="#" onclick="Showlesson4()">Урок №4 ЖИВОТНЫЕ</a>
+  </li>
+</ul>
+    <div class="container">
+        <h2 id="result4"></h2>
+    </div>
+</div>
+    <div class="container" id="t41" style="display:block">
+        <div class="container d-flex flex-nowrap">
+            <div class="col-sm-4">
+                <div class="card text-center">
+                    <img src="{% static 'images/Слайд22.jpg' %}" class="card-img-top">
+                </div>
+            </div>
+            <div class="col-sm-4"><div class="card">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio41" value="1" id="firstCheckbox41">
+                        <label class="form-check-label" for="firstCheckbox41">Лошадь</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio41" value="2" id="secondCheckbox41">
+                        <label class="form-check-label" for="secondCheckbox41">Кошка</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio41" value="3" id="thirdCheckbox41">
+                        <label class="form-check-label" for="thirdCheckbox41">Крот</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio41" value="4" id="Checkbox41">
+                        <label class="form-check-label" for="Checkbox41">Собака</label>
+                    </li>
+                </ul>
+            </div></div>
+        </div>
+        <nav aria-label="...">
+            <ul class="pagination justify-content-center">
+                <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt42()">2</a></li>
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt43()">3</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container" id="t42" style="display:none">
+        <div class="container d-flex flex-nowrap">
+            <div class="col-sm-4">
+                <div class="card text-center">
+                    <img src="{% static 'images/Слайд33.jpg' %}" class="card-img-top">
+                </div>
+            </div>
+            <div class="col-sm-4"><div class="card">
+                <ul class="list-group">
+                     <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio42" value="1" id="firstCheckbox42">
+                        <label class="form-check-label" for="firstCheckbox42">Лошадь</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio42" value="2" id="secondCheckbox42">
+                        <label class="form-check-label" for="secondCheckbox42">Кошка</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio42" value="3" id="thirdCheckbox42">
+                        <label class="form-check-label" for="thirdCheckbox42">Крот</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio42" value="4" id="Checkbox42">
+                        <label class="form-check-label" for="Checkbox42">Собака</label>
+                    </li>
+                </ul>
+            </div></div>
+        </div>
+        <nav aria-label="...">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt41()">1</a></li>
+                <li class="page-item active" aria-current="page"><span class="page-link">2</span></li>
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt43()">3</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container" id="t43" style="display:none">
+        <div class="container d-flex flex-nowrap">
+            <div class="col-sm-4">
+                <div class="card text-center">
+                    <img src="{% static 'images/Слайд99.jpg' %}" class="card-img-top">
+                </div>
+            </div>
+            <div class="col-sm-4"><div class="card">
+                <ul class="list-group">
+                     <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio43" value="1" id="firstCheckbox43">
+                        <label class="form-check-label" for="firstCheckbox43">Лошадь</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio43" value="2" id="secondCheckbox43">
+                        <label class="form-check-label" for="secondCheckbox43">Кошка</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio43" value="3" id="thirdCheckbox43">
+                        <label class="form-check-label" for="thirdCheckbox43">Крот</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio43" value="4" id="Checkbox43">
+                        <label class="form-check-label" for="Checkbox43">Собака</label>
+                    </li>
+                </ul>
+            </div></div>
+        </div>
+        <nav aria-label="...">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt41()">1</a></li>
+                <li class="page-item"><a class="page-link" href="#" onclick="Showt42()">2</a></li>
+                <li class="page-item active" aria-current="page"><span class="page-link">3</span></li>
+            </ul>
+        </nav>
+    </div>
+<div class="container text-center">
+        <div class="row justify-content-center">
+            <div class="col-2">
+                <a class="btn btn-outline-success" href="#" onclick="Showlesson4()">Назад к уроку</a>
+            </div>
+            <div class="col-2">
+                <a class="btn btn-outline-success" href="#" onclick="Showtest4()">Пройти тест еще раз</a>
+            </div>
+        </div>
+</div>
+</div>
+{% endblock %}

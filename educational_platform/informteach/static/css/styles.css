@@ -1,0 +1,69 @@
+
+body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+
+      /* Дополнительные стили, если необходимо */
+ }
+
+ header{
+     background-color: *#f8f9fa;
+     color: #fd7e14;
+     text-align: center;
+     padding: 1em;
+     height: 70vh;
+     background-image: url('/static/images/teach2.png');
+      background-repeat: no-repeat;  /* Чтобы изображение не повторялось */
+      background-size: cover;        /*Чтобы изображение занимало весь фон */
+ }
+
+ header1{
+     background-color: *#f8f9fa;
+     color: #fd7e14;
+     text-align: center;
+     padding: 1em;
+     height: 20vh;
+    background-image: url('/static/images/home_school_slide_1_bg.jpg');
+     background-repeat: no-repeat;  /* Чтобы изображение не повторялось */
+    background-size: cover;        /*Чтобы изображение занимало весь фон */
+ }
+
+footer {
+     background-color: #f8f9fa;
+     text-align: center;
+     padding: 1em;
+}
+
+ main {
+     padding: 1em;
+ }
+
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bs-primary);
+}
+.card {
+      margin-bottom: 10px; /* Отступ снизу между card элементами */
+      margin-right: 10px; /* Отступ справа между card элементами */
+      margin-top: 10px; /* Отступ сверху между card элементами */
+      margin-left: 10px; /* Отступ слева между card элементами */
+    }
+
+.row {
+      margin-bottom: 20px; /* Отступ снизу между row элементами */
+    }
+
+.container {
+      margin-top: 10px; /* Отступ сверху для container */
+    }
+.radio-label {
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 5px;
+}
+.selected {
+  background-color: lightblue; /* Или любой другой цвет */
+}
